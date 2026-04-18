@@ -1,6 +1,6 @@
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import { styled } from "@stitches/react";
-import { Button, Divider, Message, Modal } from "antd";
+import { Button, Divider, message, Modal } from "antd";
 import { useState } from "react";
 import data from "../data.json";
 
@@ -96,7 +96,7 @@ export default function CongratulatoryMoney() {
           <Description>{data.groom.parents.father.account_number}</Description>
           <CopyToClipboard
             text={data.groom.parents.father.account_number}
-            onCopy={() => Message.success("ანგარიშის ნომერი დაკოპირებულია")}
+            onCopy={() => message.success("ანგარიშის ნომერი დაკოპირებულია")}
           >
             <Button type="primary" size="small">
               კოპირება

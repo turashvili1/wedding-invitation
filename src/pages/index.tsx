@@ -33,8 +33,6 @@ const Footer = styled("footer", {
   alignItems: "center",
   justifyContent: "center",
   flexDirection: "column",
-  "-webkit-box-align": "center",
-  "-webkit-box-pack": "center",
 });
 
 export default function Home() {
@@ -44,33 +42,36 @@ export default function Home() {
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:type" content="website" />
-        <meta content="Giorgi & Kristine" name="Title" />
-        <meta
-          content="Wedding Invitation"
-          name="Description"
-        />
-        <meta content="○○○○년 ○○월 ○○일 ○요일 오전 ○○시 ○○분" name="Keyword" />
-        <meta property="og:title" content="Giorgi & Kristine" />
+        {/* Updated Meta Tags for Social Sharing */}
+        <meta content="გიორგი & ქრისტინე" name="Title" />
+        <meta content="ქორწილის მოსაწვევი" name="Description" />
+        <meta property="og:title" content="გიორგი & ქრისტინე" />
         <meta
           property="og:description"
-          content="○○○○년 ○○월 ○○일 ○요일 오전 ○○시 ○○분"
+          content="გეპატიჟებით ჩვენს ქორწილში - 2026 წლის 6 სექტემბერი"
         />
         <meta
           property="og:url"
-          content="https://kyuhyuk.kr/wedding-invitation"
+          content="https://turashvili1.github.io/wedding-invitation"
         />
         <meta name="theme-color" content="#BCAAA4" />
-        <title>Giorgi & Kristine</title>
+        <title>გიორგი & ქრისტინე</title>
       </Head>
       <main className={`${notoSansKR.className}`}>
         <Script src="https://developers.kakao.com/sdk/js/kakao.min.js"></Script>
-        <Title data={JsonData} />
+        
+        {/* This component usually handles the envelope animation */}
         <Gretting data={JsonData} />
+        
+        <Title data={JsonData} />
         <Gallery />
         <Location />
         <CongratulatoryMoney data={JsonData} />
         <Share data={JsonData} />
-        <Footer>Copyright © 2021 KyuHyuk Lee</Footer>
+        
+        <Footer>
+           2026 გიორგი & ქრისტინე
+        </Footer>
       </main>
     </>
   );

@@ -1,32 +1,33 @@
 {
   "date": "2026 წლის 6 სექტემბერი, კვირა, 19:00",
-  "location": "გორი, რესტორანი 'ნაჭარმაგევი' ",
+  "location": "გორი, რესტორანი 'ნაჭარმაგევი'",
   "gretting": "სიხარულით გიწვევთ ჩვენი ქორწილის აღსანიშნავად. გთხოვთ გაგვიზიაროთ ეს განსაკუთრებული დღე ჩვენთან ერთად.",
+  "show_greeting": true,
   "groom": {
-    "name": "○○○",
-    "account_number": "○○은행 ***-***-******",
+    "name": "გიორგი",
+    "account_number": "GE00TB0000000000000000",
     "parents": {
       "mother": {
-        "name": "○○○",
-        "account_number": "○○은행 ***-***-******"
+        "name": "დედის სახელი",
+        "account_number": ""
       },
       "father": {
-        "name": "○○○",
-        "account_number": "○○은행 ***-***-******"
+        "name": "მამის სახელი",
+        "account_number": ""
       }
     }
   },
   "bride": {
-    "name": "○○○",
-    "account_number": "○○은행 ***-***-******",
+    "name": "ქრისტინე",
+    "account_number": "GE00TB0000000000000000",
     "parents": {
       "mother": {
-        "name": "○○○",
-        "account_number": "○○은행 ***-***-******"
+        "name": "დედის სახელი",
+        "account_number": ""
       },
       "father": {
-        "name": "○○○",
-        "account_number": "○○은행 ***-***-******"
+        "name": "მამის სახელი",
+        "account_number": ""
       }
     }
   },

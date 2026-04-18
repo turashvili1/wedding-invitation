@@ -19,15 +19,24 @@ const Title = styled("p", {
 const Image = styled("img", {
   width: "75%",
   maxWidth: 1024,
+  cursor: "pointer", // This makes the mouse cursor change to a hand
 });
 
 export default function Location() {
   return (
     <Wrapper>
       <Divider plain style={{ marginTop: 0, marginBottom: 32 }}>
-        <Title>오시는 길</Title>
+        <Title>მდებარეობა</Title> 
       </Divider>
-      <Image src="./assets/Location.png" />
+      
+      {/* Replace the URL below with your actual Google Maps link */}
+      <a 
+        href="https://maps.app.goo.gl/3W5iUm95NeHgUAgB6" 
+        target="_blank" 
+        rel="noreferrer"
+      >
+        <Image src="./assets/Location.png" />
+      </a>
     </Wrapper>
   );
 }

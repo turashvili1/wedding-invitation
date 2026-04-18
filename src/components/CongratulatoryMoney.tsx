@@ -72,7 +72,7 @@ export default function CongratulatoryMoney() {
           <Description>{data.groom.account_number}</Description>
           <CopyToClipboard
             text={data.groom.account_number}
-            onCopy={() => Message.success("ანგარიშის ნომერი დაკოპირებულია")}
+            onCopy={() => message.success("ანგარიშის ნომერი დაკოპირებულია")}
           >
             <Button type="primary" size="small" style={{ marginBottom: 16 }}>
               კოპირება
@@ -84,7 +84,7 @@ export default function CongratulatoryMoney() {
           <Description>{data.groom.parents.mother.account_number}</Description>
           <CopyToClipboard
             text={data.groom.parents.mother.account_number}
-            onCopy={() => Message.success("ანგარიშის ნომერი დაკოპირებულია")}
+            onCopy={() => message.success("ანგარიშის ნომერი დაკოპირებულია")}
           >
             <Button type="primary" size="small" style={{ marginBottom: 16 }}>
               კოპირება
@@ -118,7 +118,7 @@ export default function CongratulatoryMoney() {
           <Description>{data.bride.account_number}</Description>
           <CopyToClipboard
             text={data.bride.account_number}
-            onCopy={() => Message.success("ანგარიშის ნომერი დაკოპირებულია")}
+            onCopy={() => message.success("ანგარიშის ნომერი დაკოპირებულია")}
           >
             <Button type="primary" size="small" style={{ marginBottom: 16 }}>
               კოპირება
@@ -130,7 +130,7 @@ export default function CongratulatoryMoney() {
           <Description>{data.bride.parents.mother.account_number}</Description>
           <CopyToClipboard
             text={data.bride.parents.mother.account_number}
-            onCopy={() => Message.success("ანგარიშის ნომერი დაკოპირებულია")}
+            onCopy={() => message.success("ანგარიშის ნომერი დაკოპირებულია")}
           >
             <Button type="primary" size="small" style={{ marginBottom: 16 }}>
               კოპირება
@@ -142,7 +142,7 @@ export default function CongratulatoryMoney() {
           <Description>{data.bride.parents.father.account_number}</Description>
           <CopyToClipboard
             text={data.bride.parents.father.account_number}
-            onCopy={() => Message.success("ანგარიშის ნომერი დაკოპირებულია")}
+            onCopy={() => message.success("ანგარიშის ნომერი დაკოპირებულია")}
           >
             <Button type="primary" size="small">
               კოპირება

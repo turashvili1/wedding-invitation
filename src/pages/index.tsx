@@ -50,7 +50,7 @@ export default function Home() {
           name="Description"
         />
         <meta content="○○○○년 ○○월 ○○일 ○요일 오전 ○○시 ○○분" name="Keyword" />
-        <meta property="og:title" content="○○○❤○○○ 결혼식에 초대합니다" />
+        <meta property="og:title" content="Giorgi & Kristine" />
         <meta
           property="og:description"
           content="○○○○년 ○○월 ○○일 ○요일 오전 ○○시 ○○분"
@@ -60,7 +60,7 @@ export default function Home() {
           content="https://kyuhyuk.kr/wedding-invitation"
         />
         <meta name="theme-color" content="#BCAAA4" />
-        <title>○○○❤○○○ 결혼식에 초대합니다</title>
+        <title>Giorgi & Kristine</title>
       </Head>
       <main className={`${notoSansKR.className}`}>
         <Script src="https://developers.kakao.com/sdk/js/kakao.min.js"></Script>

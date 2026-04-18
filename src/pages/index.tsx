@@ -63,7 +63,7 @@ export default function Home() {
         {/* This component usually handles the envelope animation */}
         <Gretting data={JsonData} />
         
-        <Title data={JsonData} />
+        <Title />
         <Gallery />
         <Location />
         <CongratulatoryMoney />

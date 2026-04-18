@@ -44,9 +44,9 @@ export default function Home() {
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:type" content="website" />
-        <meta content="○○○❤○○○ 결혼식에 초대합니다" name="Title" />
+        <meta content="Giorgi & Kristine" name="Title" />
         <meta
-          content="○○○○년 ○○월 ○○일 ○요일 오전 ○○시 ○○분"
+          content="Wedding Invitation"
           name="Description"
         />
         <meta content="○○○○년 ○○월 ○○일 ○요일 오전 ○○시 ○○분" name="Keyword" />
